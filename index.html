@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>John Creekmore P.E.</title>
+  <style>
+    /* Add a new class for the header container */
+    .header-container {
+      display: flex;
+	  justify-content: center;
+      align-items: center;
+	  flex-wrap: wrap;
+    }
+
+    .navbar-nav {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar-nav .nav-item:not(:last-child) {
+      margin-right: 10px;
+      border-right: 1px solid white;
+      padding-right: 10px;
+    }
+
+    .left-column,
+    .right-column {
+      width: 48%;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    /* Style for the header image */
+    .header-image {
+      max-width: 10%; /* Ensure the image doesn't exceed its container width */
+      height: auto; /* Maintain the aspect ratio */
+      margin-left: 10px; /* Adjust the margin as needed */
+    }
+	.justified-text {
+	text-align: justify;
+	}
+	.right-column{
+	margin-left: 20px;
+	}
+  </style>
+</head>
+<body>
+
+  <!-- Wrap the header content and image in a flex container -->
+  <header class="bg-success text-white text-center py-4">
+    <div class="container-fluid header-container">
+      <div>
+        <h1>John Creekmore P.E.</h1>
+      </div>
+      <img src="photo.jpg" alt="description" class="header-image">
+    </div>
+  </header>
+  <div class="container mt-4 main-content">
+    <!-- Left Column -->
+    <div class="left-column">
+      <h2>About Me</h2>
+	  <p class="justified-text">
+As a diligent and highly skilled Mechanical Engineer with extensive manufacturing experience, I am devoted to delivering top-tier solutions through my expertise in mechanical design and project management. My reputation for punctuality and an unwavering work ethic is complemented by a successful history of leading cross-functional teams in optimizing manufacturing processes, leading to substantial efficiency gains. Throughout my career, I have showcased a keen ability to troubleshoot and resolve complex issues, ensuring seamless production operations. My commitment to excellence is reflected in a proven track record of spearheading successful projects, reducing costs, and enhancing overall product performance. Supported by a solid educational background in Mechanical Engineering and a comprehensive skill set, including proficiency in relevant software and tools, I am well-positioned to contribute my expertise and drive innovation and efficiency in any dynamic engineering environment.
+	  
+	  </p>
+	  
+	  
+	  
+      <!-- Content for the "About Me" section goes here -->
+	        <h2>Contact Info</h2>
+	  <h6>Laurel, MS<br>Cell: 662-803-3128<br> 
+	  <a href="mailto:creek006.jc@gmail.com">creek006.jc@gmail.com</a>
+    </div>
+
+    <!-- Right Column -->
+    <div class="right-column">
+      <h2>Experience</h2><br>
+      <h4>Hol-Mac Bay Springs, MS</h4>
+      <h5>Reliability Engineer, Robotic Weld Engineer</h5>
+      <h6>May 2019 - Present</h6>
+      <p class="justified-text">Conduct thorough root cause failure analysis, assess and present capital investment opportunities, troubleshoot machinery, evaluate plant infrastructure for the development of new layouts, and manage administrative responsibilities within the maintenance department. Additionally, handle the transportation, setup, and programming of six-axis articulating robots with external axis connections. Undertake various other company projects as required, showcasing versatility and a proactive approach to contributing to organizational goals.
+</p><br>
+      <h4>Hol-Mac Bay Springs, MS</h4>
+      <h5>Manufacturing Engineer (Coop)</h5>
+      <h6>Jan 2017 - May 2019</h6>
+      <p class="justified-text">Conceptualized, designed, and executed ergonomic and safety enhancements throughout the company, showcasing a commitment to creating a secure and efficient working environment.
+</p><br>
+      <h4>HSI Springs, MS</h4>
+      <h5>CNC Machinist</h5>
+      <h6>October 2011 - May 2015</h6>
+      <p>Operated and configured CNC equipment, meticulously proofread programs, and conducted thorough inspections of finished parts to ensure adherence to high-quality standards.
+</p><br>
+      <!-- Repeat the experience details as needed -->
+
+      <h2>Education</h2>
+	  <h4>Mississippi State University</h4>
+      <h5>Mechanical Engineering, B.S.</h5>
+      <h6>May 2015 - May 2019</h6>
+      <p class="justified-text"> I graduated Magna Cum Laude and actively contributed to multiple group projects, taking on the role of Team Lead, where I showcased leadership skills and effective collaboration. My coursework encompassed a diverse range of subjects, including Engineering Mechanics, Thermodynamics, Fluids, Vibrations, Material Science, and Machine Design. This educational background has equipped me with a solid foundation and a comprehensive understanding of mechanical engineering principles.
+      </p><br>
+	  	  <h4>East Central Community College</h4>
+      <h5>Percision Machining, A.A.S.</h5>
+      <h6>May 2003 - May 2005</h6>
+      <p class="justified-text">During my academic journey, I engaged in hands-on projects that allowed me to master a diverse range of manual and CNC machines. One notable achievement was securing the 1st place in the 2016 SkillsUSA competition for Mississippi, demonstrating my proficiency and excellence in the field. Furthermore, I achieved the 6th position nationally, reflecting my commitment to precision and skill in a competitive environment. These experiences have not only honed my technical abilities but also instilled in me a passion for continuous improvement and success
+      </p><br>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
